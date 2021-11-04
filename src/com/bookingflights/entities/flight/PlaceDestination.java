@@ -1,4 +1,4 @@
-package com.bookingflights.flight;
+package com.bookingflights.entities.flight;
 
 public enum PlaceDestination {
     NEW_YORK("New York"),

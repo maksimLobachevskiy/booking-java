@@ -1,4 +1,4 @@
-package com.bookingflights.flight;
+package com.bookingflights.entities.flight;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
