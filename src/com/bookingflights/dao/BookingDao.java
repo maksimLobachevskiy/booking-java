@@ -1,4 +1,15 @@
 package com.bookingflights.dao;
 
-public class BookingDao {
+import com.bookingflights.entities.booking.Booking;
+
+import java.util.List;
+
+public interface BookingDao {
+  List<Booking> getAllBookings();
+
+  Booking getBookingId(int id);
+
+  Booking cancelBooking(int id);
+
+  Booking saveBooking(Booking booking);
 }
